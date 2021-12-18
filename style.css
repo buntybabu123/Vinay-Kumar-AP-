@@ -1,0 +1,22 @@
+.hover_effect:hover {
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+    /* width: 300px; */
+    transform: scale(1.1);
+}
+
+.single_card{
+    display: flex;
+    flex-direction: row;
+}
+
+.single_card img {
+    width: 50%;
+}
+
+.quantity {
+    border: 1px solid gray;
+    padding-right: 25px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;    
+}
